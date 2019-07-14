@@ -1,0 +1,65 @@
+html {
+	background: url(./bar2.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+/*link explaining non-scroll background
+https://stackoverflow.com/questions/27080701/html-css-how-can-i-make-a-fixed-background-with-scrolling-content */
+
+body {
+	font-family: Book Antiqua;
+	background-color: #EDEFF2;
+	padding: 5px;
+	border-radius: 15px 15px 15px 15px;
+	max-width: 750px;
+	
+	position: absolute;
+    /*top: 50%;*/
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -0%);
+}
+
+img {
+	border-radius: 15px 15px 15px 15px;
+}
+
+/*#wrap {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}*/
+
+#Home {
+	position: absolute;
+	right: 240px;
+}
+
+#Menu {
+	position: absolute;
+	right: 180px;
+}
+
+#Gallery {
+	position: absolute;
+	right: 110px;
+}
+
+#AboutUs {
+	position: absolute;
+	right: 20px;
+}
+
+h3 {
+	color:white;
+	background-color: gray;
+	margin: 5px;
+}
+
+p {
+	color: black;
+	margin: 5px;
+}
